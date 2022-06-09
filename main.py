@@ -15,3 +15,6 @@ def hello():
 def hello():
     return 'not here either'
 
+@app.route('/c')
+def hello():
+    return 'neither'
