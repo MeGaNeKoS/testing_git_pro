@@ -18,3 +18,7 @@ def hello():
 @app.route('/c')
 def hello():
     return 'neither'
+
+@app.route('/d')
+def hello():
+    return 'None'
