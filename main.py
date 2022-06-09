@@ -10,3 +10,8 @@ def hello():
 @app.route('/a')
 def hello():
     return 'Where are you'
+
+@app.route('/b')
+def hello():
+    return 'not here either'
+
